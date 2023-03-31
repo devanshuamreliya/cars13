@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+body 
+{
+    background-color: #1C2A39;
+    color:#4056a1;
+}
+#header 
+{
+    background-color: #5b7c99;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0px;
+}
+
+#logo-title
+{
+    display: flex;
+    align-items: center; 
+   
+}
+
+#logo-title
+{
+    display: flex;
+    align-items: center; /* vertical aligment */
+}
+#menu
+{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+#logo-title>h1 
+{
+    font-size: 1.6em;
+    color:#E3E84F;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-family: 'Roboto Slab', serif;
+   
+}
+#menu>li>a:link , #menu>li>a:visited
+{
+    color:white;
+    padding:10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+}
+#menu>li>a:hover
+{
+    background-color: white;
+    color:black;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.dropdown
+{
+    font-size: 1.0em;
+    color:white;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+#footer 
+{
+    background-color: rgba(255,162,43,0.5);
+    opacity:unset ;
+    bottom: 0px;
+    padding:8px 0px;
+
+}
+#footer>h1
+{
+    color:#5b84c4;
+    font-family: 'Roboto Slab';
+    font-size:90px; 
+   text-decoration:underline;
+    text-align: center;
+}
+#footer>h2
+{
+    color:#666 ;
+    font-family: 'Roboto Slab'; 
+    text-align: center;
+
+}
+#footer>h3
+{
+    color:#5b84c4;
+    font-family: 'Roboto Slab'; 
+   text-align: center;
+   align-items:center;
+
+}
+
+
+/*#footer>h3
+{
+
+    align:;
+
+}
+
+/*body {
+    background: #ff5f6d;
+    background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    min-height: 100vh;
+  }
+  
+  #button-addon1 {
+    color: #ffc371;
+  }
+  
+  i {
+    color: #ffc371;
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
